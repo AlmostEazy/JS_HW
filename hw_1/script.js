@@ -5,7 +5,7 @@
 
 // let celsiusDegree = prompt ('Введите температуру в градусах Цельсия');
 // let fahrenheitDegree = celsiusDegree * (9 / 5) + 32; //Так как присутствует знак умножения, celsiusDegree можно явно в число не преобразовывать
-// alert (`${celsiusDegree} градусов по Цельсию это ${fahrenheitDegree} градусов по Фаренгейту`);
+// alert(`${celsiusDegree} градусов по Цельсию это ${fahrenheitDegree} градусов по Фаренгейту`);
 
 
 /* Задание 2
@@ -14,7 +14,7 @@
 
 // let name = 'Антон';
 // let admin = name;
-// console.log (admin);
+// console.log(admin);
 
 
 /* Гугл подсказал, что глобально переменную name лучше не использовать, так как она в конечном итоге присвоится window.name которая имеет специальное значение, на что нам и указывает VS Code
@@ -25,7 +25,7 @@
 function myName () {
     let name = 'Антон';
     let admin = name;
-    console.log (admin);
+    console.log(admin);
 }
 
 myName();
